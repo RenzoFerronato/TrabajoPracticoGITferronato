@@ -1,7 +1,7 @@
 <?php
 require_once 'JugadorIndependiente.php';
 
-$jugador = new JugadorIndependiente($_POST['nombre'], $_POST['dorsal'], $_POST['categoria']);
+$jugador = new JugadorIndependiente($_POST['nombre'], $_POST['dorsal'], $_POST['categoria'],  $_POST['posicion']);
 
 
 
@@ -12,6 +12,7 @@ $jugador = new JugadorIndependiente($_POST['nombre'], $_POST['dorsal'], $_POST['
 $datos['nombre'] = $jugador->getNombre();
 $datos['dorsal'] = $jugador->getDorsal();
 $datos['categoria'] = $jugador->getCategoria();
+$['posicion'] = $jugador->getPosicion()
 
 //Para probar el método __toString():
 //$datos['cadena'] = "Datos del alumno: " . $alumno;

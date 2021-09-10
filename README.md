@@ -8,6 +8,7 @@ De ellos registra:
 Nombre
 Dorsal de camiseta
 Categoria del jugador
+Posicion del jugador
 
 Luego el programa nos muestra los datos en pantalla, para verificar qe todo
 fue almacenado correctamente.
