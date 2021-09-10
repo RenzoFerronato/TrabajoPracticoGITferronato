@@ -1,0 +1,20 @@
+*{
+	margin: 10;
+}
+h1{
+	font-size: 34px;
+	text-align: center;
+	color: red;
+	font-family: "reggae one";
+}
+form{
+	margin: auto;
+	text-align: center;
+}
+form label{
+	font-family: "reggae one";
+}
+form .datos{
+	margin-top: 15px;
+	color: red ;
+}
